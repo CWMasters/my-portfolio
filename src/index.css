@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,74 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+
+* {
+  background-color: black;
 }
+
+/* ABOUT COMPONENT */
+
+/* .container {
+  display: flex;
+  align-items: center;
+} */
+
+.myPic {
+  width: 20%; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header */
+#about {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.myInfo {
+  margin: 50px;
+  color: white;
+}
+
+/* ABOUT COMPONENT END */
+
+
+
+
+/* CONTACT COMPONENT */
+
+/* text */
+#contact-form {
+  margin: 0 0 0 50px ;
+  color: white;
+}
+
+/* button */
+#sub-btn {
+  color: white;
+}
+
+/* header */
+#contact {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+/* CONTACT COMPONENT END */
+
+
+
+/* FOOTER COMPONENT */
+
+.footer {
+ 
+}
+
+/* FOOTER COMPONENT END */
+
+
+

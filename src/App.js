@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import About from './components/About';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+
 
 function App() {
-  // setting main page to display 'About info'
+  // setting main page to display 'About' component
   const [currentPage, setCurrentPage] = useState('About');
 
 
@@ -12,10 +15,15 @@ function App() {
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
         />
+        <main>
+          <About></About>
+          <Contact></Contact>
+          <Footer></Footer>
+          
+        </main>
+        
 
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        
         
       
     </div>

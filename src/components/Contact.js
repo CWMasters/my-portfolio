@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
-import Title from './title'
+
 
 function ContactForm() {
 
@@ -39,16 +39,17 @@ function ContactForm() {
     
         return (
             <section>
-                <h1>Contact me</h1>
+                <h1 id="contact">Further Questions?</h1>
                 <form id="contact-form" onSubmit={handleSubmit}>
                     {/* name input */}
                     <div>
                         <label htmlFor="name">Name:</label>
                         <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
                     </div>
+                    
                     {/* email input */}
                     <div>
-                        <label htmlFor="email">Email address:</label>
+                        <label htmlFor="email">Email:</label>
                         <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
                     </div>
                     {/* message text area */}
@@ -63,7 +64,7 @@ function ContactForm() {
                         </div>
                     )}
     
-                    <button type="submit">Submit</button>
+                    <button id="sub-btn" type="submit">Submit</button>
                 </form>
             </section>
         )
