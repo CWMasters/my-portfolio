@@ -4,7 +4,7 @@ import myPic from "../assets/images/mypic.jpg";
 function About() {
     return (
         <section>
-          <h1 id="about">About Me</h1>
+          <h2 id="about">About Me</h2>
             <article className="container">
                 <img src={myPic} className='myPic' alt="Picture of Chris Masters" />
                 

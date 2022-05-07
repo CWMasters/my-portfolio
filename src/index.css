@@ -58,7 +58,7 @@ code {
 
 /* button */
 #sub-btn {
-  color: white;
+  background-color: white;
 }
 
 /* header */
@@ -67,6 +67,12 @@ code {
   font-size: 50px;
   color: white;
 }
+
+textarea, input {
+  background-color: white;
+  width: 500px;
+}
+
 /* CONTACT COMPONENT END */
 
 
@@ -78,6 +84,28 @@ code {
 }
 
 /* FOOTER COMPONENT END */
+
+
+
+/* HEADER COMPONENT */
+
+.name-header {
+  color: white;
+  font-size: 40px;
+  
+  
+}
+
+.navigation {
+  color: white;
+  
+}
+
+.pages-tab {
+  
+}
+
+/* HEADER COMPONENT END */
 
 
 
