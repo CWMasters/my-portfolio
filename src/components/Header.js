@@ -5,12 +5,9 @@ function Header(props) {
     const { currentPage, setCurrentPage } = props;
         
     
-
-
 return (
     <header>
        <div className='flex-row name-header'>
-          
            <h1>Chris Masters</h1>
        </div> 
        <div className='navigation'>

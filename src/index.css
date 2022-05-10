@@ -15,6 +15,7 @@ code {
 
 * {
   background-color: black;
+  color: white;
 }
 
 /* ABOUT COMPONENT */
@@ -34,7 +35,7 @@ code {
 /* header */
 #about {
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   color: white;
 }
 
@@ -64,7 +65,7 @@ code {
 /* header */
 #contact {
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   color: white;
 }
 
@@ -106,6 +107,21 @@ textarea, input {
 }
 
 /* HEADER COMPONENT END */
+
+
+
+
+
+
+/* PORTFOLIO COMPONENT */
+
+.port-header {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* PORTFOLIO COMPONENT END */
 
 
 

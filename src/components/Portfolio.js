@@ -1,8 +1,9 @@
 import React from 'react';
-// import pictures for projects/ carousel?? etc
+import Project from './Project';
+
 
 function Portfolio() {
-    const portfolioArr = [
+    const projectArr = [
         {
             name: 'Moveies',
             tech: 'HTML/CSS/JavaScript/Tailwind',
@@ -46,8 +47,33 @@ function Portfolio() {
             img: 'assets/images/led.png'
         },
     ];
-}
 
-// return
+    // cycle through the projectsArr to display
+    return (
+        <section>
+            <div>
+                <h2 className='port-header'>Portfolio</h2>
+            </div>
+            <div>
+                <ul>
+                   { projectArr.map(entry => {
+                        return ( 
+                            <li>
+                                <Project projectArr={entry}></Project></li>
+                        )
+                    })    
+                }
+
+                </ul>
+            </div>
+           
+        </section>
+
+
+    )
+
+};
+
+
 
 export default Portfolio;

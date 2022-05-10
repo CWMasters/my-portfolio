@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -13,15 +14,12 @@ function App() {
 
   return (
     <div className="App">
-      <header 
-        currentPage={currentPage}
-        setCurrentPage={setCurrentPage}
-        />
+     
         <main>
-          <Header></Header>
-         
-          <About></About>
-          <Contact></Contact>
+          <Header currentPage={currentPage} setCurrentPage={setCurrentPage}></Header>
+          {currentPage === 'About' ? <About></About> : ''}
+          {currentPage === 'Portfolio' ? <Portfolio></Portfolio> : ''}
+          {currentPage === 'Contact' ? <Contact></Contact> : ''}
           <Footer></Footer>
           
         </main>

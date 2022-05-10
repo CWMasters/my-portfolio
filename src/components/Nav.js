@@ -7,19 +7,19 @@ function Nav(props) {
         <nav>
             <ul className='flex-row pages-tab'>
                 <li className={currentPage === 'about' ? 'navActive' : ''}>
-                   <span onClick={() => setCurrentPage('about')}>About Me</span>
+                   <span onClick={() => setCurrentPage('About')}>About Me</span>
                 </li>
 
                 <li className={currentPage === 'portfolio' ? 'navActive' : ''}>
-                   <span onClick={() => setCurrentPage('portfolio')}>Portfolio</span>
+                   <span onClick={() => setCurrentPage('Portfolio')}>Portfolio</span>
                 </li>
 
                 <li className={currentPage === 'contact' ? 'navActive' : ''}>
-                   <span onClick={() => setCurrentPage('contact')}>Contact Me</span>
+                   <span onClick={() => setCurrentPage('Contact')}>Contact Me</span>
                 </li>
 
                 <li className={currentPage === 'resume' ? 'navActive' : ''}>
-                   <span onClick={() => setCurrentPage('resume')}>Resume</span>
+                   <span onClick={() => setCurrentPage('Resume')}>Resume</span>
                 </li>
 
                 
