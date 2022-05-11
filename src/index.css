@@ -60,6 +60,7 @@ code {
 /* button */
 #sub-btn {
   background-color: white;
+  color: black;
 }
 
 /* header */
@@ -81,7 +82,8 @@ textarea, input {
 /* FOOTER COMPONENT */
 
 .footer {
- 
+  text-align: center;
+  margin: 150px;
 }
 
 /* FOOTER COMPONENT END */
@@ -92,14 +94,11 @@ textarea, input {
 
 .name-header {
   color: white;
-  font-size: 40px;
-  
-  
+  font-size: 40px; 
 }
 
 .navigation {
   color: white;
-  
 }
 
 .pages-tab {
