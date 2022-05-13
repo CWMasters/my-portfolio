@@ -6,8 +6,9 @@ function Header(props) {
         
     
 return (
-    <header>
-       <div className='flex-row name-header'>
+    <header className='container'>
+                {/* className='flex-row justify-space-between' */}
+       <div className='name-header'>
            <h1>Chris Masters</h1>
        </div> 
        <div className='navigation'>

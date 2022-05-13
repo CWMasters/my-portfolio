@@ -5,25 +5,42 @@ function Nav(props) {
 
     return (
         <nav>
-            <ul className='flex-row pages-tab'>
-                <li className={currentPage === 'about' ? 'navActive' : ''}>
-                   <span onClick={() => setCurrentPage('About')}>About Me</span>
-                </li>
+            <div className='pages-tab'>
+               
+            <div className='nav-btn1'>
+                <button className='nav-btn'>
+                  <a className={currentPage === 'about' ? 'navActive' : ''}>
+                    <span onClick={() => setCurrentPage('About')}>About Me</span>
+                  </a>
+                </button>
+            </div>
 
-                <li className={currentPage === 'portfolio' ? 'navActive' : ''}>
+            <div className='nav-btn2'>
+                <button className='nav-btn'>
+                  <a className={currentPage === 'portfolio' ? 'navActive' : ''}>
                    <span onClick={() => setCurrentPage('Portfolio')}>Portfolio</span>
-                </li>
+                  </a>
+                </button>
+            </div>
 
-                <li className={currentPage === 'contact' ? 'navActive' : ''}>
-                   <span onClick={() => setCurrentPage('Contact')}>Contact Me</span>
-                </li>
+            <div className='nav-btn3'>
+                <button className='nav-btn'>
+                  <a className={currentPage === 'contact' ? 'navActive' : ''}>
+                   <span onClick={() => setCurrentPage('Contact')}>Contact</span>
+                  </a>
+                </button>
+            </div>
 
-                <li className={currentPage === 'resume' ? 'navActive' : ''}>
+            <div className='nav-btn4'>
+                <button className='nav-btn'>
+                  <a className={currentPage === 'resume' ? 'navActive' : ''}>
                    <span onClick={() => setCurrentPage('Resume')}>Resume</span>
-                </li>
+                  </a>
+                </button>
+            </div>
 
                 
-            </ul>
+            </div>
         </nav>
     )
 

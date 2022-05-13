@@ -14,34 +14,44 @@ code {
 
 
 * {
-  background-color: black;
+  background-color: #303036;
+  /* color: #fffaff; */
   color: white;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-/* ABOUT COMPONENT */
+/* html {
+  background-image: url(./assets/images/background.png);
+  background-size: cover; 
+  height: 100%; 
+  width: 100%;
+  position: absolute;
+  
 
-/* .container {
-  display: flex;
-  align-items: center;
 } */
+
+/* ABOUT COMPONENT */
 
 .myPic {
   width: 20%; 
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  border-radius: 25px;
+  margin-left: 40px;
 }
 
 /* header */
 #about {
   text-align: center;
   font-size: 40px;
-  color: white;
+  margin-top: 100px;
+  color: #fd00fd;
+  /* font-weight: none; */
 }
 
 .myInfo {
   margin: 50px;
-  color: white;
 }
 
 /* ABOUT COMPONENT END */
@@ -54,7 +64,6 @@ code {
 /* text */
 #contact-form {
   margin: 0 0 0 50px ;
-  color: white;
 }
 
 /* button */
@@ -67,12 +76,13 @@ code {
 #contact {
   text-align: center;
   font-size: 40px;
-  color: white;
+  margin-top: 100px;
 }
 
 textarea, input {
   background-color: white;
   width: 500px;
+  font-size: 15px;
 }
 
 /* CONTACT COMPONENT END */
@@ -83,7 +93,7 @@ textarea, input {
 
 .footer {
   text-align: center;
-  margin: 150px;
+  margin: 100px;
 }
 
 /* FOOTER COMPONENT END */
@@ -92,17 +102,41 @@ textarea, input {
 
 /* HEADER COMPONENT */
 
+/* main title and nav */
+.container {
+  display: flex;
+  align-items: center;
+}
+
+/* main title (my name) */
 .name-header {
-  color: white;
-  font-size: 40px; 
+  font-size: 25px; 
+  margin-left: 50px;
+}
+
+/* nav tabs */
+.pages-tab {
+ margin-left: 380px;
+ display: flex;
+
+}
+
+/* nav tabs divs */
+.nav-btn {
+  padding: 10px;
+  font-size: 15px;
+  width: 100px;
+  white-space: nowrap; 
+  /* background-color: purple; */
+}
+
+.nav-btn1, .nav-btn2, .nav-btn3, .nav-btn4 {
+  margin-right: 10px;
 }
 
 .navigation {
-  color: white;
-}
-
-.pages-tab {
-  
+ 
+  /* margin-left: 300px; */
 }
 
 /* HEADER COMPONENT END */
@@ -115,12 +149,29 @@ textarea, input {
 /* PORTFOLIO COMPONENT */
 
 .port-header {
-  color: white;
+  /* color: white; */
   font-size: 40px;
   text-align: center;
+  margin-top: 100px;
 }
 
 /* PORTFOLIO COMPONENT END */
+
+
+
+/* RESUME COMPONENT */
+
+.res-header {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.res-subhead, .res-list {
+  margin-left: 200px;
+}
+
+/* RESUME COMPONENT END */
 
 
 
