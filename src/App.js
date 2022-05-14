@@ -24,10 +24,6 @@ function App() {
           {currentPage === 'Resume' ? <Resume></Resume> : ''}
           <Footer></Footer>
         </main>
-        
-
-        
-        
       
     </div>
   );

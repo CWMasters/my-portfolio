@@ -5,7 +5,7 @@ function Portfolio() {
     const projectArr = [
         {
             name: 'Moveies',
-            tech: 'HTML/CSS/JavaScript/Tailwind',
+            tech: 'HTML/CSS/JS/Tailwind',
             github: 'https://github.com/CWMasters/moveiesfinal',
             link: 'https://cwmasters.github.io/moveiesfinal/',
             img: '/images/moveies-screenshot.png'
@@ -19,21 +19,21 @@ function Portfolio() {
         },
         {
             name: 'My Password Generator',
-            tech: 'HTML/CSS/JavaScript',
+            tech: 'HTML/CSS/JS',
             github: 'https://github.com/CWMasters/my-password-generator',
             link: 'https://cwmasters.github.io/my-password-generator/',
             img: '/images/password.png'
         },
         {
             name: 'Todays Schedule',
-            tech: 'HTML/CSS/JavaScript/Bootstrap/JQuery',
+            tech: 'HTML/CSS/JS/Bootstrap/JQuery',
             github: 'https://github.com/CWMasters/todays-schedule-app',
             link: 'https://cwmasters.github.io/todays-schedule-app/',
             img: '/images/scheduler.png'
         },
         {
             name: 'Show Me Notes',
-            tech: 'HTML/Bootstrap/JavaScript/Express',
+            tech: 'HTML/Bootstrap/JS/Express',
             github: 'https://github.com/CWMasters/show-me-notes',
             link: 'https://cwmasters.github.io/show-me-notes/',
             img: '/images/notes.png'
