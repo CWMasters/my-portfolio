@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function Nav(props) {
     const { currentPage, setCurrentPage } = props;
+
+
+    // function handleClick(e) {
+    //   e.target.classList.add('navActive')
+    // }
+
+    // useEffect to change tab name in browser tab.
+    useEffect(() => {
+      document.title = currentPage
+    }, [currentPage]);
+
 
     return (
         <nav>
@@ -9,7 +20,7 @@ function Nav(props) {
                
             <div className='nav-tab1'>
                 <div className='nav-tab'>
-                  <a className={currentPage === 'about' ? 'navActive' : ''}>
+                  <a className={currentPage === 'About' ? 'navActive' : ''}>
                     <span onClick={() => setCurrentPage('About')}>About Me</span>
                   </a>
                 </div>
@@ -17,7 +28,7 @@ function Nav(props) {
 
             <div className='nav-tab2'>
                 <div className='nav-tab'>
-                  <a className={currentPage === 'portfolio' ? 'navActive' : ''}>
+                  <a className={currentPage === 'Portfolio' ? 'navActive' : ''}>
                    <span onClick={() => setCurrentPage('Portfolio')}>Portfolio</span>
                   </a>
                 </div>
@@ -25,7 +36,7 @@ function Nav(props) {
 
             <div className='nav-tab3'>
                 <div className='nav-tab'>
-                  <a className={currentPage === 'contact' ? 'navActive' : ''}>
+                  <a className={currentPage === 'Contact' ? 'navActive' : ''}>
                    <span onClick={() => setCurrentPage('Contact')}>Contact</span>
                   </a>
                 </div>
@@ -33,7 +44,7 @@ function Nav(props) {
 
             <div className='nav-tab4'>
                 <div className='nav-tab'>
-                  <a className={currentPage === 'resume' ? 'navActive' : ''}>
+                  <a className={currentPage === 'Resume' ? 'navActive' : ''}>
                    <span onClick={() => setCurrentPage('Resume')}>Resume</span>
                   </a>
                 </div>
