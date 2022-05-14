@@ -13,22 +13,27 @@ code {
 } */
 
 
+
+/* WHOLE PAGE */
+
 * {
   background-color: #303036;
   /* color: #fffaff; */
   color: white;
   font-family: 'Courier New', Courier, monospace;
+  /* color: #31D077; */
 }
 
-/* html {
-  background-image: url(./assets/images/background.png);
-  background-size: cover; 
-  height: 100%; 
-  width: 100%;
-  position: absolute;
-  
 
-} */
+/* ALL SUB HEADERS */
+
+.port-header, #contact, .res-header, #about {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 100px;
+
+}
+
 
 /* ABOUT COMPONENT */
 
@@ -41,17 +46,21 @@ code {
   margin-left: 40px;
 }
 
-/* header */
-#about {
-  text-align: center;
-  font-size: 40px;
-  margin-top: 100px;
-  color: #fd00fd;
-  /* font-weight: none; */
-}
-
 .myInfo {
   margin: 50px;
+  background-color: #212225;
+  
+}
+
+.outer {
+  border: solid;
+  border-color: #212225;
+  padding: 10px 10px 0 10px;
+  background-color: #212225;
+  margin-right: 50px;
+
+  /* #3F4147 */
+  /* #40434e */
 }
 
 /* ABOUT COMPONENT END */
@@ -59,11 +68,40 @@ code {
 
 
 
+/* PORTFOLIO COMPONENT */
+
+.github-link :hover {
+  color: #31D077;
+}
+
+.app-link :hover {
+  color: #31D077;
+}
+
+.projectPic {
+  height: 200px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.container1 {
+ /* float: left; */
+}
+
+/* PORTFOLIO COMPONENT END */
+
+
+
+
 /* CONTACT COMPONENT */
 
 /* text */
+.contact-p {
+  text-align: center;
+}
+
 #contact-form {
-  margin: 0 0 0 50px ;
+  margin: 80px 0 0 50px ;
 }
 
 /* button */
@@ -72,15 +110,9 @@ code {
   color: black;
 }
 
-/* header */
-#contact {
-  text-align: center;
-  font-size: 40px;
-  margin-top: 100px;
-}
-
 textarea, input {
   background-color: white;
+  color: black;
   width: 500px;
   font-size: 15px;
 }
@@ -89,14 +121,15 @@ textarea, input {
 
 
 
-/* FOOTER COMPONENT */
 
-.footer {
-  text-align: center;
-  margin: 100px;
+/* RESUME COMPONENT */
+
+.res-subhead, .res-list {
+  margin-left: 200px;
 }
 
-/* FOOTER COMPONENT END */
+/* RESUME COMPONENT END */
+
 
 
 
@@ -112,31 +145,40 @@ textarea, input {
 .name-header {
   font-size: 25px; 
   margin-left: 50px;
+  font-weight: lighter;
+}
+
+.masters-header {
+  color: #31D077;
+  font-weight: lighter;
 }
 
 /* nav tabs */
 .pages-tab {
  margin-left: 380px;
  display: flex;
-
 }
 
 /* nav tabs divs */
-.nav-btn {
-  padding: 10px;
+.nav-tab {
   font-size: 15px;
   width: 100px;
   white-space: nowrap; 
-  /* background-color: purple; */
+  /* padding: 10px; */
+  /* background-color: #212225; */
+  /* border-radius: 20px; */
 }
 
-.nav-btn1, .nav-btn2, .nav-btn3, .nav-btn4 {
-  margin-right: 10px;
+.nav-tab :hover {
+  color: #31D077;
 }
 
-.navigation {
- 
-  /* margin-left: 300px; */
+.nav-tab1, .nav-tab2, .nav-tab3, .nav-tab4 {
+  margin-right: 5px;
+}
+
+.nav .nav-tab {
+  color: #31D077
 }
 
 /* HEADER COMPONENT END */
@@ -144,34 +186,34 @@ textarea, input {
 
 
 
+/* FOOTER COMPONENT */
 
-
-/* PORTFOLIO COMPONENT */
-
-.port-header {
-  /* color: white; */
-  font-size: 40px;
+.footer {
   text-align: center;
-  margin-top: 100px;
+  margin: 100px 0 0 540px;
 }
 
-/* PORTFOLIO COMPONENT END */
-
-
-
-/* RESUME COMPONENT */
-
-.res-header {
-  font-size: 40px;
-  text-align: center;
-  margin-top: 100px;
+.phone1, .mail1, .linkedin1, .github1 {
+  float: left;
+  margin-right: 10px;
 }
 
-.res-subhead, .res-list {
-  margin-left: 200px;
-}
+/* FOOTER COMPONENT END */
 
-/* RESUME COMPONENT END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

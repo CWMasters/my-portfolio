@@ -9,7 +9,7 @@ return (
     <header className='container'>
                 {/* className='flex-row justify-space-between' */}
        <div className='name-header'>
-           <h1>Chris Masters</h1>
+           <h1>Chris <span className='masters-header'>Masters</span></h1>
        </div> 
        <div className='navigation'>
            <Nav

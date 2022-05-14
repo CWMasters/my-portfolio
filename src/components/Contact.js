@@ -39,7 +39,8 @@ function ContactForm() {
     
         return (
             <section>
-                <h1 id="contact">Further Questions?</h1>
+                <h1 id="contact">Contact me</h1>
+                <p className='contact-p'>Please feel free to email me with any questions or queries!</p>
                 <form id="contact-form" onSubmit={handleSubmit}>
                     {/* name input */}
                     <div>
