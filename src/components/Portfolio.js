@@ -53,17 +53,17 @@ function Portfolio() {
             <div>
                 <h2 className='port-header'>Portfolio</h2>
             </div>
-            <div>
-                <ul>
+            <div className='card-container'>
+               
                    { projectArr.map(entry => {
                         return ( 
-                            <li>
-                                <Project projectArr={entry}></Project></li>
+                            
+                                <Project projectArr={entry}></Project>
                         )
                     })    
                 }
 
-                </ul>
+                
             </div>
            
         </section>

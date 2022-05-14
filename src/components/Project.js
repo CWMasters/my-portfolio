@@ -8,7 +8,7 @@ function Project(props) {
 
     
     //   <Col md="4">
-        <Card>
+        <Card className='cards'>
             <Card.Img variant="top" className='projectPic' src={props.projectArr.img}  />
 
             <Card.Body className='cards'>

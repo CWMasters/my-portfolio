@@ -84,17 +84,23 @@ code {
   opacity: 80%;
 }
 
-ul {
+/* ul {
   list-style-type: none;
+} */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 3rem; */
 }
 
 
-/* .cards {
-  border: solid 1px;
-  border-color: #212225;
-  padding-left: 10px;
-  
-} */
+.cards {
+  /* padding: 30px; */
+  margin: 20px;
+}
+
+
 
 /* .container1 { */
   /* float: left;

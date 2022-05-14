@@ -10,6 +10,7 @@ return (
                 {/* className='flex-row justify-space-between' */}
        <div className='name-header'>
            <h1>Chris <span className='masters-header'>Masters</span></h1>
+           {/* <span className='header-sub'>Web Developer</span> */}
        </div> 
        <div className='navigation'>
            <Nav
