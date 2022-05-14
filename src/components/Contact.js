@@ -41,22 +41,23 @@ function ContactForm() {
             <section>
                 <h1 id="contact">Contact me</h1>
                 <p className='contact-p'>Please feel free to email me with any questions or queries!</p>
+
                 <form id="contact-form" onSubmit={handleSubmit}>
                     {/* name input */}
-                    <div>
+                    <div className='name-box'>
                         <label htmlFor="name">Name:</label>
                         <br></br>
                         <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
                     </div>
                     
                     {/* email input */}
-                    <div>
+                    <div className='email-box'>
                         <label htmlFor="email">Email:</label>
                         <br></br>
                         <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
                     </div>
                     {/* message text area */}
-                    <div>
+                    <div className='message-box'>
                         <label htmlFor="message">Message:</label>
                         <br></br>
                         <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
@@ -68,7 +69,7 @@ function ContactForm() {
                         </div>
                     )}
     
-                    <button id="sub-btn" type="submit">Submit</button>
+                    <button className='sub-btn' type="submit">Submit</button>
                 </form>
             </section>
         )

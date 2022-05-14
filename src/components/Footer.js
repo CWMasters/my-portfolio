@@ -23,6 +23,11 @@ function Footer() {
               <a href="https://github.com/CWMasters"><img src={require('../assets/images/github2.png')} /></a>
             </div>
 
+            <div className='stack1'>
+              <a href="https://stackoverflow.com/"><img src={require('../assets/images/stack.png')} /></a>
+
+            </div>
+
             </address>
         </section>
     )

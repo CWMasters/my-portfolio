@@ -1,13 +1,13 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
+import {Card} from 'react-bootstrap';
 
 function Project(props) {
     return (
         
         <div className='container1'>
-            <h2>{props.projectArr.name}</h2>
+            <h3>{props.projectArr.name}</h3>
 
-        
+
             <caption>{props.projectArr.tech}</caption>
 
             <div className='github-link'>
@@ -20,21 +20,9 @@ function Project(props) {
 
             <img className='projectPic' src={props.projectArr.img} alt="project pic"></img>
             
-           
-
         </div>
-
-        
-
-
-
 
     );
 }
-
-
-
-
-
 
 export default Project;

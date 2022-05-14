@@ -7,6 +7,8 @@ function Resume() {
         <section>
             <h2 className='res-header'>Resume</h2>
             
+            <p className='res-link'>For a downloaded copy of my resume, please click the link.</p>
+
              <div>
                 <h3 className='res-subhead'>Full Stack Skills</h3>
                 <ul className='res-list'>
