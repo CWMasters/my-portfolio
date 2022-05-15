@@ -9,7 +9,7 @@ function Project(props) {
     
     //   <Col md="4">
         <Card className='cards'>
-            <Card.Img variant="top" className='projectPic' src={props.projectArr.img}  />
+            <Card.Img variant="top" className='projectPic' src={process.env.PUBLIC_URL + props.projectArr.img}  />
 
             <Card.Body className='cards'>
                 <Card.Title className='proj-name'><h3>{props.projectArr.name}</h3></Card.Title>
