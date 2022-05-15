@@ -4,10 +4,6 @@ function Nav(props) {
     const { currentPage, setCurrentPage } = props;
 
 
-    // function handleClick(e) {
-    //   e.target.classList.add('navActive')
-    // }
-
     // useEffect to change tab name in browser tab.
     useEffect(() => {
       document.title = currentPage
@@ -16,7 +12,7 @@ function Nav(props) {
 
     return (
         <nav>
-            <div className='pages-tab'>
+          <div className='pages-tab'>
                
             <div className='nav-tab1'>
                 <div className='nav-tab'>
@@ -51,8 +47,9 @@ function Nav(props) {
             </div>
 
                 
-            </div>
+          </div>
         </nav>
+
     )
 
 }

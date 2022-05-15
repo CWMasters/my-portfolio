@@ -1,17 +1,3 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
 
 
 /* WHOLE PAGE */
@@ -20,7 +6,6 @@ code {
   background-color: #303036;
   color: white;
   font-family: 'Courier New', Courier, monospace;
-  /* color: #31D077; */
 }
 
 
@@ -38,16 +23,13 @@ code {
 .myPic {
   width: 20%; 
   display: block;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
   border-radius: 25px;
   margin-left: 40px;
 }
 
 .myInfo {
   margin: 50px;
-  background-color: #212225;
-  
+  background-color: #212225; 
 }
 
 .outer {
@@ -56,14 +38,9 @@ code {
   padding: 10px 10px 0 10px;
   background-color: #212225;
   margin-right: 50px;
-
-  /* #3F4147 */
-  /* #40434e */
 }
 
 /* ABOUT COMPONENT END */
-
-
 
 
 /* PORTFOLIO COMPONENT */
@@ -78,7 +55,6 @@ code {
   text-decoration: none;
 }
 
-
 .projectPic {
   height: 180px;
   width: 290px;
@@ -90,24 +66,13 @@ code {
   display: flex;
   flex-wrap: wrap;
   margin-left: 160px;
-  /* padding: 3rem; */
 }
 
 .cards {
   margin: 10px;
 }
 
-/* .proj-name {
-  font-size: 15px;
-} */
-
-/* .proj-tech {
-  font-weight: bold;
-} */
-
 /* PORTFOLIO COMPONENT END */
-
-
 
 
 /* CONTACT COMPONENT */
@@ -143,8 +108,6 @@ textarea, input {
 /* CONTACT COMPONENT END */
 
 
-
-
 /* RESUME COMPONENT */
 
 .res-link {
@@ -162,8 +125,6 @@ textarea, input {
 }
 
 /* RESUME COMPONENT END */
-
-
 
 
 /* HEADER COMPONENT */
@@ -208,14 +169,19 @@ textarea, input {
   margin-right: 5px;
 }
 
+nav a:active {
+  color: #31D077;
+}
+
+.navActive {
+  color: #31D077;
+}
+
 /* .navActive {
   color: #31D077;
 } */
 
-
 /* HEADER COMPONENT END */
-
-
 
 
 /* FOOTER COMPONENT */
