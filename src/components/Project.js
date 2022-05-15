@@ -12,10 +12,10 @@ function Project(props) {
             <Card.Img variant="top" className='projectPic' src={props.projectArr.img}  />
 
             <Card.Body className='cards'>
-                <Card.Title><h3>{props.projectArr.name}</h3></Card.Title>
+                <Card.Title className='proj-name'><h3>{props.projectArr.name}</h3></Card.Title>
 
                 <Card.Text>
-                    <caption>{props.projectArr.tech}</caption>
+                    <caption className='proj-tech'>{props.projectArr.tech}</caption>
 
                     <div className='github-link'>
                         <a href={props.projectArr.github}>Github</a>

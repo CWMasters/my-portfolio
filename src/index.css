@@ -95,6 +95,14 @@ code {
   margin: 10px;
 }
 
+/* .proj-name {
+  font-size: 15px;
+} */
+
+/* .proj-tech {
+  font-weight: bold;
+} */
+
 /* PORTFOLIO COMPONENT END */
 
 
@@ -146,6 +154,11 @@ textarea, input {
   margin-left: 200px;
 }
 
+.dl-link {
+  color: #31D077;
+  text-decoration: none;
+}
+
 /* RESUME COMPONENT END */
 
 
@@ -193,9 +206,9 @@ textarea, input {
   margin-right: 5px;
 }
 
-.navActive {
+/* .navActive {
   color: #31D077;
-}
+} */
 
 
 /* HEADER COMPONENT END */
