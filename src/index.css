@@ -71,11 +71,13 @@ code {
 /* hyperlinks */
 .github-link :hover, .app-link :hover {
   color: #31D077;
+  text-decoration: arrow;
 }
 
 .github-link :link, .app-link :link {
   text-decoration: none;
 }
+
 
 .projectPic {
   height: 180px;

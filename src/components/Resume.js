@@ -8,7 +8,7 @@ function Resume() {
         <section>
             <h2 className='res-header'>Resume</h2>
             
-            <p className='res-link'>To download a copy of my resume, please click this <a className='dl-link' href='/images/chris-resume.pdf'>Link.</a></p>
+            <p className='res-link'>To download a copy of my resume, click this <a className='dl-link' href='/images/chris-resume.pdf'>Link.</a></p>
             {/* <a href='../../public/images/chris-reusme.pdf'>CLick</a> */}
 
              <div>
