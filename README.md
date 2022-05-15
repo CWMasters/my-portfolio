@@ -24,6 +24,6 @@ Written by Chris Masters.
 
 ## Other info
 
-In project the LED Wall is a placeholder.
+In my portfolio the LED Wall is a placeholder.
 
 
