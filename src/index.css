@@ -1,13 +1,217 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+/* WHOLE PAGE */
+
+* {
+  background-color: #303036;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* ALL SUB HEADERS */
+
+.port-header, #contact, .res-header, #about {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 100px;
 }
+
+
+/* ABOUT COMPONENT */
+
+.myPic {
+  width: 20%; 
+  display: block;
+  border-radius: 25px;
+  margin-left: 40px;
+}
+
+.myInfo {
+  margin: 50px;
+  background-color: #212225; 
+}
+
+.outer {
+  border: solid;
+  border-color: #212225;
+  padding: 10px 10px 0 10px;
+  background-color: #212225;
+  margin-right: 50px;
+}
+
+/* ABOUT COMPONENT END */
+
+
+/* PORTFOLIO COMPONENT */
+
+/* hyperlinks */
+.github-link :hover, .app-link :hover {
+  color: #31D077;
+  text-decoration: arrow;
+}
+
+.github-link :link, .app-link :link {
+  text-decoration: none;
+}
+
+.projectPic {
+  height: 180px;
+  width: 290px;
+  margin-top: 20px;
+  opacity: 80%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 160px;
+}
+
+.cards {
+  margin: 10px;
+}
+
+/* PORTFOLIO COMPONENT END */
+
+
+/* CONTACT COMPONENT */
+
+/* text */
+.contact-p {
+  text-align: center;
+}
+
+#contact-form {
+  margin: 80px 0 20px 100px ;
+}
+
+.name-box, .email-box, .message-box {
+  margin-bottom: 10px;
+}
+
+/* button */
+.sub-btn {
+  background-color: #31D077;
+  color: black;
+  width: 100px;
+  border-radius: 50px;
+}
+
+textarea, input {
+  background-color: white;
+  color: black;
+  width: 500px;
+  font-size: 15px;
+}
+
+/* CONTACT COMPONENT END */
+
+
+/* RESUME COMPONENT */
+
+.res-link {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.res-subhead, .res-list {
+  margin-left: 200px;
+}
+
+.dl-link {
+  color: #31D077;
+  text-decoration: none;
+}
+
+/* RESUME COMPONENT END */
+
+
+/* HEADER COMPONENT */
+
+/* main title and nav */
+.container {
+  display: flex;
+  align-items: center;
+}
+
+/* main title (my first name) */
+.name-header {
+  font-size: 25px; 
+  margin-left: 50px;
+  font-weight: lighter;
+}
+
+/* last name header */
+.masters-header {
+  color: #31D077;
+  font-weight: lighter;
+}
+
+/* nav tabs */
+.pages-tab {
+ margin-left: 380px;
+ display: flex;
+}
+
+/* nav tabs divs */
+.nav-tab {
+  font-size: 15px;
+  width: 100px;
+  white-space: nowrap; 
+}
+
+.nav-tab :hover {
+  color: #31D077;
+}
+
+.nav-tab1, .nav-tab2, .nav-tab3, .nav-tab4 {
+  margin-right: 5px;
+}
+
+nav a:active {
+  color: #31D077;
+}
+
+.navActive {
+  color: #31D077;
+}
+
+/* .navActive {
+  color: #31D077;
+} */
+
+/* HEADER COMPONENT END */
+
+
+/* FOOTER COMPONENT */
+
+.footer {
+  text-align: center;
+  margin: 100px 0 0 490px;
+}
+
+.phone1, .mail1, .linkedin1, .github1, .stack1 {
+  float: left;
+  margin-right: 10px;
+}
+
+/* FOOTER COMPONENT END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
