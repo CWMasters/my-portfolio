@@ -6,8 +6,8 @@ function Portfolio() {
        
         {
             name: 'L3tters',
-            tech: 'React',
-            github: 'https://github.com/Moses-Ian/letters',
+            tech: 'MERN/GraphQL/socket.io/Bulma',
+            github: 'https://github.com/CWMasters/letters',
             link: 'https://l3tters.herokuapp.com/',
             img: '/images/letters.png'
         },
