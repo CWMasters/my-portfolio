@@ -3,6 +3,14 @@ import Project from './Project';
 
 function Portfolio() {
     const projectArr = [
+       
+        {
+            name: 'L3tters',
+            tech: 'React',
+            github: 'https://github.com/Moses-Ian/letters',
+            link: 'https://l3tters.herokuapp.com/',
+            img: '/images/letters.png'
+        },
         {
             name: 'Moveies',
             tech: 'HTML/CSS/JS/Tailwind',
@@ -38,13 +46,8 @@ function Portfolio() {
             link: 'https://cwmasters.github.io/show-me-notes/',
             img: '/images/notes.png'
         },
-        {
-            name: 'LED Wall',
-            tech: 'Node/Iot',
-            github: '',
-            link: '',
-            img: '/images/led.png'
-        },
+        
+
     ];
 
     // cycle through the projectsArr to display
